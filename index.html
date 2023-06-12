@@ -1,50 +1,164 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фестиваль перемоги України</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <div class="content">
+    <header class="header">
+   <nav class="nav">
+    <ul class="nav-ul">
+       <div>
+        <li class="logo"><img src="./images/logo1" alt="logo"></li></div> 
+      <div class="nav-li"> 
+        <li class="nav-li-header">Контакти</li>
+        <li class="nav-li-header">Головна</li>
+        <li class="nav-li-header">Програма</li>
+        <li><button class="btn-nav">ЯК ПОТРАПИТИ</button> </li></div> 
+    </ul>
+   </nav>
+   <h1 class="title">Фестиваль<br> Перемоги<br> України</h1>
+   <p class="descr-header">Свято для усіх українців, які працювали,<br> боролися й вірили у перемогу</p>
+   <div class="woman"><img src="./images/woman-with-flag" alt="жінка" width="1035"></div>
+    </header>   
+    <main>
+        <section class="section-1">
+            <h2 class="title-section-1">Програма Фестивалю</h2>
+            <p class="text-section-1">3 сцени, щоб добре й із задоволенням провести час</p>
+            <p class="descr-section-1"> Усі сцени розташовані так, щоб вам було зручно ходити<br> між ними, і вони одна одну не глушили</p>       
+        </section>
+        <section class="section-2 section-flex">
+           <div> 
+            <h3 class="title-3">Сцена Перемоги</h3>
+            <p class="text-section-2 " >Розбудова України після війни</p>
+            <ul class="ul-section">
                 <li>
-                    <a href="#"><img src="./img/subtract.svg"/></a>
+                    <p class="descr">Виступ Президента України</p>
+                    <p class="time">10:00-12:00</p>
                 </li>
                 <li>
-                    <a href="#">Контакти</a>
+                    <p class="descr">Виступ представників ЄС</p>
+                    <p class="time">13:00-14:00</p>
                 </li>
                 <li>
-                    <a href="#">Головна</a>
+                    <p class="descr">Виступ представників НАТО</p>
+                    <p class="time">14:00-15:00</p>
                 </li>
                 <li>
-                    <a href="#">Програма</a>
-                </li>
-                <li>
-                    <a href="#">
-                       <button> ЯК ПОТРАПИТИ</button></a>
+                    <p class="descr">Гімн України</p>
+                    <p class="time">21:25-21:30</p>
                 </li>
             </ul>
-        </nav>
-        <h1>Фестиваль Перемоги України</h1>
-        <p>Свято для усіх українців, які працювали, боролися й вірили у перемогу</p>
-    </header>
-    <main>
-        <div>
-            <h2>Програма фестивалю</h2>
-            <p>3 сцени, щоб добре й із задоволенням провести час</p>
-            <p>Усі сцени розташовані так, щоб вам було зручно ходити між ними, і вони одна одну не глушили</p>
         </div>
-        <div>
-            <section></section>
-            <section></section>
-            <section></section>
+         <div><img class="section-img" src="./images/scene1" alt="сцена1">
+        </div> 
+        </section>
+        <section class="section-3 section-flex">
+            <div>
+            <h3 class="title-3">Сцена "Музика"</h3>
+            <ul class="ul-section">
+                <li>
+                    <p class="descr">Артем Квасоваров</p>
+                    <p class="time">14:00-15:00</p>
+                </li>
+                <li>
+                    <p class="descr">Степан Мега</p>
+                    <p class="time">16:00-17:00</p>
+                </li>
+                <li>
+                    <p class="descr">Гурт “Протитіла”</p>
+                    <p class="time">17:00-18:00</p>
+                </li>
+                <li>
+                    <p class="descr">Гурт “Надвірна”</p>
+                    <p class="time">18:00-19:00</p>
+                </li>
+            </ul></div>
+           <div> <img class="section-img" src="./images/scene2" alt="сцена2">
         </div>
-        <div></div>
-        <div></div>
+        </section>
+        <section class="section-4 section-flex">
+            <div>
+            <h3 class="title-3">Сцена "Майстер-<br>класи для дітей"</h3>
+            <ul class="ul-section">
+                <li>
+                    <p class="descr">Музей науки</p>
+                    <p class="time">14:00-15:00</p>
+                </li>
+                <li>
+                    <p class="descr">Майстер-клас з ліплення</p>
+                    <p class="time">16:00-17:00</p>
+                </li>
+                <li>
+                    <p class="descr">Майстер-клас з машинобудування</p>
+                    <p class="time">17:00-18:00</p>
+                </li>
+                <li>
+                    <p class="descr">Майстер-клас з роботехніки</p>
+                    <p class="time">18:00-19:00</p>
+                </li>
+            </ul>      
+        </div>   
+         <div> <img class="section-img" src="./images/scene3" alt="сцена3">  
+        </div>
+        </section>
+        <button class="btn-section-4">Дізнатися більше</button>
+        <section class="section-5">
+            <p class="text-section-5">
+                Кожен учасник фестивалю<br>
+                 отримає прапор України та <br>футболку з гербом
+            </p>
+      <img class="img-gift" src="./images/gift" alt="подарунок">
+        </section>
+        <section class="section-6">
+            <h2 class="title-3 title-section-6">Як потрапити</h2>
+            <p class="text-section-6">
+                Фестиваль безкоштовний. 
+                Будемо збирати пожертви для відбудови<br>
+                 зруйнованих українських міст та сіл.
+            </p>
+            <p class="text-2-section-6">Наша мета 10 000 000 гривень! </p>
+            <p class="numbers-section-6">00 <span class="stick">|</span> 230 <span class="stick">|</span> 025</p>
+            <button class="btn-section-6">Зробити пожертву</button>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <section class="footer-section-1">
+        <div> 
+             <h2 class="title-3 footer-title">Контакти</h2>
+            </div> 
+<div class="contacts">
+    <img class="phone" src="./images/phone" alt="телефон">
+    <p class="text-phone">
+        Якщо у вас виникають питання –<br>
+         телефонуйте за номером
+        <div class="number-phone">0-987-654-321</div> 
+    </p>
+   <div class="social"><img src="./images/telegram" alt="телеграм">
+    <img src="./images/whatsapp" alt="ватсапп"></div> 
+    <p class="text-social">Або пишіть нам у чат-бот</p>
+</div>
+        </section>
+        <section class="footer-section-2">
+         <div class="email">  <img src="./images/e-mail" alt="почта"></div> 
+         <div class="forms">
+            <p class="text-form">Щоб дізнаватися усі новини<br>
+                 фестивалю, підпишися на нашу<br> розсилку</p>
+            <form action="#">
+                <input class="input" placeholder="Ім'я" type="text">
+                <input class="input" placeholder="Емейл" type="email">
+                <button class="btn-footer">Підписатися</button>
+            </form>
+         </div>
+        </section>
+    </footer>
+    </div>
 </body>
 </html>
