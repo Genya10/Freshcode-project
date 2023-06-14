@@ -1,5 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color-one:#f1fdff;
+    --color-two:#7ae5fd;
+    --color-three:#f9fadf;
 }
 
 .content {
@@ -10,7 +21,7 @@ body {
 .header {
     width: 1440px;
     height: 729px;
-    background-color: #f1fdff;
+    background-color:var(--color-one);
     position: relative;
 }
 
@@ -41,7 +52,7 @@ body {
     font-size: 18px;
     border-radius: 87px;
     padding: 21px 28px;
-    background-color: #7ae5fd;
+    background-color:var(--color-two);
     border: none;
 }
 
@@ -61,7 +72,7 @@ body {
     font-weight: 800;
     font-size: 93px;
     line-height: 0.9;
-    color: #9ad2de;
+    color: #9ad2de;   
     text-transform: uppercase;
     position: absolute;
     margin-left: 100px;
@@ -81,6 +92,7 @@ body {
     height: 250px;
     text-align: center;
     padding-top: 30px;
+    margin-top: 143px;
     margin-bottom: 69px;
 }
 
@@ -119,7 +131,7 @@ body {
 .section-2 {
     width: 1240px;
     height: 511px;
-    background-color: #f1fdff;
+    background-color:var(--color-one);
     margin-left: 100px;
 }
 
@@ -133,6 +145,7 @@ body {
     font-weight: 400;
     font-size: 46px;
     line-height: 1.2;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -154,7 +167,7 @@ body {
 .section-3 {
     width: 1240px;
     height: 504px;
-    background-color: #f1fdff;
+    background-color:var(--color-one);
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -162,7 +175,7 @@ body {
 .section-4 {
     width: 1240px;
     height: 532px;
-    background-color: #f1fdff;
+    background-color:var(--color-one);
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -171,7 +184,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     text-transform: uppercase;
-    background-color: #7ae5fd;
+    background-color: var(--color-two);
     border-radius: 87px;
     padding: 21px 35px;
     margin-top: 71px;
@@ -181,6 +194,7 @@ body {
 }
 
 .section-5 {
+    margin: auto;
     width: 1285px;
     height: 738px;
     background: url('./images/back');
@@ -231,6 +245,7 @@ body {
     line-height: 1.2;
     text-align: center;
     font-size: 22px;
+    margin-bottom: 17px;
 }
 
 .numbers-section-6 {
@@ -247,7 +262,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     text-transform: uppercase;
-    background-color: #7ae5fd;
+    background-color: var(--color-two);
     border-radius: 87px;
     padding: 21px 35px;
     font-size: 18px;
@@ -258,7 +273,8 @@ body {
 }
 
 .footer {
-    background-color: #f9fadf;
+    background-color: var(--color-three);
+    padding-top: 57px;
     padding-bottom: 110px;
 }
 
@@ -287,10 +303,6 @@ body {
     margin-left: 400px;
 }
 
-.phone {
-    margin-top: 30px;
-}
-
 .text-phone {
     font-size: 20px;
     line-height: 1.2;
@@ -305,7 +317,6 @@ body {
 
 .social {
     margin-top: 30px;
-    ;
 }
 
 .text-social {
@@ -333,7 +344,7 @@ form {
 .input {
     font-size: 20px;
     width: 506px;
-    background-color: #f9fadf;
+    background-color: var(--color-three);
     border-radius: 61px;
     padding: 21px;
     border: none;
