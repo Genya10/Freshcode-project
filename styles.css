@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -16,6 +13,9 @@ body {
 .content {
     width: 1440px;
     margin: 0 auto;
+}
+.br{
+    display: block;
 }
 
 .header {
@@ -50,6 +50,7 @@ body {
 
 .btn-nav {
     font-size: 18px;
+    text-transform: uppercase;
     border-radius: 87px;
     padding: 21px 28px;
     background-color:var(--color-two);
@@ -92,7 +93,6 @@ body {
     height: 250px;
     text-align: center;
     padding-top: 30px;
-    margin-top: 143px;
     margin-bottom: 69px;
 }
 
@@ -145,7 +145,6 @@ body {
     font-weight: 400;
     font-size: 46px;
     line-height: 1.2;
-    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -194,7 +193,6 @@ body {
 }
 
 .section-5 {
-    margin: auto;
     width: 1285px;
     height: 738px;
     background: url('./images/back');
@@ -245,7 +243,6 @@ body {
     line-height: 1.2;
     text-align: center;
     font-size: 22px;
-    margin-bottom: 17px;
 }
 
 .numbers-section-6 {
@@ -274,7 +271,6 @@ body {
 
 .footer {
     background-color: var(--color-three);
-    padding-top: 57px;
     padding-bottom: 110px;
 }
 
@@ -303,6 +299,10 @@ body {
     margin-left: 400px;
 }
 
+.phone {
+    margin-top: 30px;
+}
+
 .text-phone {
     font-size: 20px;
     line-height: 1.2;
@@ -317,6 +317,7 @@ body {
 
 .social {
     margin-top: 30px;
+    ;
 }
 
 .text-social {
